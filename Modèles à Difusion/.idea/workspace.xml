@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9608f276-37c9-4e78-b037-834d1584809e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../tibo - Modèles à Difusion/DDPPM.py.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tibo - Modèles à Difusion/UNET.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tibo - Modèles à Difusion/configDDPM.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tibo - Modèles à Difusion/ddpm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tibo - Modèles à Difusion/generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/.idea/Modèles à Difusion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../tibo - Modèles à Difusion/.idea/Modèles à Difusion.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/OU_DSM_1.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +53,17 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in ddpm.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in ddpm_ai.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.OUDSM2.executor&quot;: &quot;Run&quot;,
     &quot;Python.OU_DSM_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.ddpm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ddpm_ai.executor&quot;: &quot;Run&quot;,
     &quot;Python.generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.newUNET.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unet2.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -74,6 +76,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../tibo - Modèles à Difusion/avant mahamat" />
+      <recent name="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -96,14 +104,39 @@
       <workItem from="1735031894683" duration="34000" />
       <workItem from="1735032398360" duration="2207000" />
       <workItem from="1735284302930" duration="424000" />
+      <workItem from="1736152277541" duration="1683000" />
+      <workItem from="1736448158660" duration="7000" />
+      <workItem from="1737464416304" duration="9523000" />
+      <workItem from="1737701548462" duration="2410000" />
+      <workItem from="1737988208766" duration="2542000" />
+      <workItem from="1738071756207" duration="5000" />
+      <workItem from="1738091671306" duration="2677000" />
+      <workItem from="1738095194987" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Modèles_à_Difusion$ddpm.coverage" NAME="ddpm Coverage Results" MODIFIED="1735032541657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion" />
-    <SUITE FILE_PATH="coverage/Modèles_à_Difusion$generator.coverage" NAME="generator Coverage Results" MODIFIED="1735033952242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion" />
+    <SUITE FILE_PATH="coverage/Modèles_à_Difusion$unet2.coverage" NAME="unet2 Coverage Results" MODIFIED="1737528169961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion" />
+    <SUITE FILE_PATH="coverage/Modèles_à_Difusion$ddpm.coverage" NAME="ddpm Coverage Results" MODIFIED="1737988642957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion" />
+    <SUITE FILE_PATH="coverage/Modèles_à_Difusion$main.coverage" NAME="main Coverage Results" MODIFIED="1738093702424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi" />
+    <SUITE FILE_PATH="coverage/Modèles_à_Difusion$.coverage" NAME=" Coverage Results" MODIFIED="1737527441484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion" />
+    <SUITE FILE_PATH="coverage/Modèles_à_Difusion$train.coverage" NAME="train Coverage Results" MODIFIED="1737702074310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion/depuis le lien de mahamat" />
+    <SUITE FILE_PATH="coverage/Modèles_à_Difusion$generator.coverage" NAME="generator Coverage Results" MODIFIED="1737467099754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion" />
+    <SUITE FILE_PATH="coverage/Modèles_à_Difusion$newUNET.coverage" NAME="newUNET Coverage Results" MODIFIED="1737702468483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion" />
+    <SUITE FILE_PATH="coverage/Modèles_à_Difusion$ddpm_ai.coverage" NAME="ddpm_ai Coverage Results" MODIFIED="1737528175177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion" />
   </component>
 </project>

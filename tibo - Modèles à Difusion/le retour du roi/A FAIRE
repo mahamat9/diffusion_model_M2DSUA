@@ -1,0 +1,2 @@
+- checker dans UNET, je crois que certaines constantes dépendent en
+fait de config (ex: nsteps dans myUnet)
