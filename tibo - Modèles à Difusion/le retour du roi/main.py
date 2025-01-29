@@ -300,7 +300,7 @@ if __name__ == "__main__":
     # construction du modèle
     ddpm = MyDDPM(MyUNet())
     
-    # queqlues fonctions de visualisation, désactivées par défaut
+    # quelques fonctions de visualisation, désactivées par défaut
     """
     show_first_batch(loader) # voir le premier batch
     show_forward(ddpm, loader) # voir le processus de bruitage
@@ -330,7 +330,7 @@ if __name__ == "__main__":
     print("Generating new images")
     generated = generate_new_images(
         best_model,
-        n_samples=36,
-        gif_name="mnist.gif"
+        n_samples=64,
+        gif_name="mnist_ddpm_epoch82.gif"
     )
     show_images(generated, "Résultat final")
