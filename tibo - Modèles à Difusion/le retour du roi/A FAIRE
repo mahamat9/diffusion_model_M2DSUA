@@ -1,2 +1,5 @@
-- checker dans UNET, je crois que certaines constantes dépendent en
-fait de config (ex: nsteps dans myUnet)
+
+- est ce que d'accord avec dsm -> ddpm
+- est ce que unet c'est compris
+
+- latex : dsm vers ddpm, unet

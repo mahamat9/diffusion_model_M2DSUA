@@ -5,8 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9608f276-37c9-4e78-b037-834d1584809e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi/unet_cifar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi/unet_mnist.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/avant mahamat/UNET.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/avant mahamat/configDDPM.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/avant mahamat/ddpm.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/avant mahamat/ddpm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/avant mahamat/ddpm_ai.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/avant mahamat/generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/avant mahamat/in_n_out.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/avant mahamat/newUNET.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/avant mahamat/unet2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/depuis le lien de mahamat/UNET.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/depuis le lien de mahamat/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/depuis le lien de mahamat/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi/A FAIRE" beforeDir="false" afterPath="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi/A FAIRE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi/config_ddpm.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi/config_ddpm.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi/ddpm_mnist.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi/mnist.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi/sampling.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi/unet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/notebook/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/notebook/.ipynb_checkpoints/mnist_test-checkpoint.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/notebook/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tibo - Modèles à Difusion/notebook/mnist_test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/main.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/main.bbl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/main.blg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/main.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/main.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/main.synctex.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/main.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/main.tex" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +59,17 @@
         <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -50,37 +101,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests in ddpm.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in ddpm_ai.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OUDSM2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OU_DSM_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ddpm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ddpm_ai.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.newUNET.executor&quot;: &quot;Run&quot;,
-    &quot;Python.train.executor&quot;: &quot;Run&quot;,
-    &quot;Python.unet2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests in ddpm.py.executor": "Run",
+    "Python tests.Python tests in ddpm_ai.py.executor": "Run",
+    "Python.OUDSM2.executor": "Run",
+    "Python.OU_DSM_1.executor": "Run",
+    "Python.ddpm.executor": "Run",
+    "Python.ddpm_ai.executor": "Run",
+    "Python.generator.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.monUnet.executor": "Run",
+    "Python.newUNET.executor": "Run",
+    "Python.train.executor": "Run",
+    "Python.unet2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../tibo - Modèles à Difusion/avant mahamat" />
       <recent name="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Modèles à Difusion" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -111,7 +193,10 @@
       <workItem from="1737988208766" duration="2542000" />
       <workItem from="1738071756207" duration="5000" />
       <workItem from="1738091671306" duration="2677000" />
-      <workItem from="1738095194987" duration="21000" />
+      <workItem from="1738095194987" duration="158000" />
+      <workItem from="1738132275208" duration="9446000" />
+      <workItem from="1738148596631" duration="5078000" />
+      <workItem from="1738162038379" duration="6988000" />
     </task>
     <servers />
   </component>
@@ -131,8 +216,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Modèles_à_Difusion$unet2.coverage" NAME="unet2 Coverage Results" MODIFIED="1737528169961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion" />
+    <SUITE FILE_PATH="coverage/Modèles_à_Difusion$monUnet.coverage" NAME="monUnet Coverage Results" MODIFIED="1738163662274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi" />
     <SUITE FILE_PATH="coverage/Modèles_à_Difusion$ddpm.coverage" NAME="ddpm Coverage Results" MODIFIED="1737988642957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion" />
-    <SUITE FILE_PATH="coverage/Modèles_à_Difusion$main.coverage" NAME="main Coverage Results" MODIFIED="1738093702424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi" />
+    <SUITE FILE_PATH="coverage/Modèles_à_Difusion$main.coverage" NAME="main Coverage Results" MODIFIED="1738168910090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion/le retour du roi" />
     <SUITE FILE_PATH="coverage/Modèles_à_Difusion$.coverage" NAME=" Coverage Results" MODIFIED="1737527441484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion" />
     <SUITE FILE_PATH="coverage/Modèles_à_Difusion$train.coverage" NAME="train Coverage Results" MODIFIED="1737702074310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion/depuis le lien de mahamat" />
     <SUITE FILE_PATH="coverage/Modèles_à_Difusion$generator.coverage" NAME="generator Coverage Results" MODIFIED="1737467099754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tibo - Modèles à Difusion" />

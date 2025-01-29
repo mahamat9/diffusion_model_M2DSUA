@@ -1,24 +1,25 @@
 # paramètres globaux
-no_train: False
+train: True # lancer une routine d'entraînement ?
+old_model: False # reprendre depuis le dernier meilleur modèle ?
 device: "mps"
 seed: 0
+
 
 # paramètres de diffusion
 n_steps: 1000
 min_beta: 0.0001
 max_beta: 0.02
 
-# paramètres du modèle
-im_channels: 1
-im_size: 28
-
 # paramètres d'entraînement
-batch_size: 64
-n_epochs: 10
+batch_size: 128
+n_epochs: 50
 num_grid_rows: 10
-lr: 0.001
-model_path: 'ddpm_mnist.pth'
+lr: 0.0001
+store_path: 'ddpm_mnist_tests.pth'
 train_display: True
 
+# paramètres UNET
+unet_model: "unet_mnist" # unet_mnist pour mnist, unet_cifar pour cifar
+time_emb_dim: 100
 
 
