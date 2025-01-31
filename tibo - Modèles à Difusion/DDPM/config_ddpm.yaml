@@ -3,7 +3,7 @@ train: False # lancer une routine d'entraînement ?
 old_model: True # reprendre depuis le dernier meilleur modèle ?
 device: "mps"
 seed: 0
-
+image_save_path: "sample_epoch82.png"
 
 # paramètres de diffusion
 n_steps: 1000

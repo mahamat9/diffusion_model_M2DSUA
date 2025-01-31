@@ -331,6 +331,6 @@ if __name__ == "__main__":
     generated = generate_new_images(
         best_model,
         n_samples=64,
-        gif_name="mnist_ddpm_epoch82.gif"
+        gif_name=config["image_save_path"],
     )
     show_images(generated, "Résultat final")
